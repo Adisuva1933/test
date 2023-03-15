@@ -64,8 +64,8 @@ LOG_STR += ("Spell Check Mode Is Enabled, bot will be suggesting related movies 
 LOG_STR += (f"MAX_LIST_ELM Found, long list will be shortened to first {MAX_LIST_ELM} elements\n" if MAX_LIST_ELM else "Full List of casts and crew will be shown in imdb template, restrict them by adding a value to MAX_LIST_ELM\n")
 LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
 
-
-SHORTENER_API = environ.get("SHORTENER_API", "f5616eb315d90bdb1ea7e977eed8d1523ecdc060")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "tinyfy.in")
+SHORTENER_API = environ.get("SHORTENER_API", "182e3a2105a510589a30b0e63cec94c7671bf398")
 LONG_DROPLINK_URL = environ.get("LONG_DROPLINK_URL", False)
 
 
